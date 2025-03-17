@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="093dSSntu1j6RhsCxNYZ">
+    <mxGraphModel dx="-5231" dy="-2129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7784" y="3570" width="1926" height="1091.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-2" value="입력 데이터" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6930" y="4114.5" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7200" y="4194" as="sourcePoint" />
+            <mxPoint x="7320" y="4194.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-4" value="이미지 전처리" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7350" y="4114.5" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7620" y="4194" as="sourcePoint" />
+            <mxPoint x="7740" y="4194.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-6" value="CONVOLUTIONLAYER 1&amp;nbsp;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="7810" y="4104.5" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-7" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="8172" y="4159.5" width="36" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-8" value="Max Pooling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="8160" y="4304.5" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-9" value="CONVOLUTIONLAYER 2" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="8330" y="4104.5" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-10" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="8692" y="4159.5" width="36" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-11" value="Max Pooling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="8680" y="4304.5" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-12" value="Flatten" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8820" y="3975" width="50" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-13" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="8052" y="4110" width="36" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-14" value="ReLU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="8040" y="4304.5" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-15" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="8582" y="4110" width="36" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-16" value="ReLU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="8570" y="4304.5" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="8950" y="3987" width="390.96999999999935" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.sstatic.net/KvzJc.png;clipPath=inset(5.33% 47.36% 0% 0%);" parent="MyXXM6wKa5X1oABOJZfT-17" vertex="1">
+          <mxGeometry width="217.59269039822541" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-19" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="MyXXM6wKa5X1oABOJZfT-17" vertex="1">
+          <mxGeometry x="70" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="MyXXM6wKa5X1oABOJZfT-17" vertex="1">
+          <mxGeometry x="210" y="343" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-21" value="&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력&lt;/strong&gt;: 28×28×1 (Gray Scale)&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;필터 크기&lt;/strong&gt;: 3×3&amp;nbsp;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;필터 수&lt;/strong&gt;: 4개&amp;nbsp;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;스트라이드&lt;/strong&gt;: 1&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;패딩&lt;/strong&gt;: 1 (same padding)&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;출력 크기&lt;/strong&gt;: 28×28×4&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;가중치 수&lt;/strong&gt;: 3×3×1×4 = 36개&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;바이어스&lt;/strong&gt;: 4개&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;활성화 함수&lt;/strong&gt;: ReLU&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7820" y="4334.5" width="220" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-22" value="&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력&lt;/strong&gt;: 28×28×4&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;풀링 크기&lt;/strong&gt;: 2×2&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;스트라이드&lt;/strong&gt;: 2&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;출력 크기&lt;/strong&gt;: 14×14×4&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8130" y="4330" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-23" value="&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력&lt;/strong&gt;: 14×14×4&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;필터 크기&lt;/strong&gt;: 3×3&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;필터 수&lt;/strong&gt;: 8개&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;스트라이드&lt;/strong&gt;: 1&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;패딩&lt;/strong&gt;: 0 (no padding)&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;출력 크기&lt;/strong&gt;: 12×12×8&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;가중치 수&lt;/strong&gt;: 3×3×4×8 = 288개&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;바이어스&lt;/strong&gt;: 8개&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;활성화 함수&lt;/strong&gt;: ReLU&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8330" y="4334.5" width="220" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-24" value="&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력&lt;/strong&gt;: 12×12×8&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;풀링 크기&lt;/strong&gt;: 2×2&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;스트라이드&lt;/strong&gt;: 2&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;출력 크기&lt;/strong&gt;: 6×6×8&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8652" y="4334.5" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-25" value="&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력&lt;/strong&gt;: 6×6×8&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;출력&lt;/strong&gt;: 288 (6×6×8)&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8820" y="4540" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-26" value="&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력&lt;/strong&gt;: 288&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;출력 노드&lt;/strong&gt;: 64 (120에서 축소)&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;가중치 수&lt;/strong&gt;: 288×64 = 18,432개&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;바이어스&lt;/strong&gt;: 64개&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;활성화 함수&lt;/strong&gt;: ReLU&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8990" y="4490" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-27" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="9330" y="3987" width="390.96999999999935" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.sstatic.net/KvzJc.png;clipPath=inset(5.67% 0% 0% 43.21%);" parent="MyXXM6wKa5X1oABOJZfT-27" vertex="1">
+          <mxGeometry width="235.596664193081" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-29" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="MyXXM6wKa5X1oABOJZfT-27" vertex="1">
+          <mxGeometry x="-10" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-30" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="MyXXM6wKa5X1oABOJZfT-27" vertex="1">
+          <mxGeometry x="210" y="343" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-31" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="MyXXM6wKa5X1oABOJZfT-27" vertex="1">
+          <mxGeometry x="30" y="343" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-32" value="&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력&lt;/strong&gt;: 64&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;출력 노드&lt;/strong&gt;: 10 (MNIST 숫자 0-9)&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;가중치 수&lt;/strong&gt;: 64×10 = 640개&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;바이어스&lt;/strong&gt;: 10개&lt;/li&gt;&#xa;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;활성화 함수&lt;/strong&gt;: Softmax&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9320" y="4490" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-33" value="&lt;h3 class=&quot;text-lg font-bold text-text-200 mt-1 -mb-1.5&quot;&gt;입력 데이터&lt;/h3&gt;&lt;ul class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot; depth=&quot;0&quot;&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;입력 이미지&lt;/strong&gt;: 28×28 픽셀 (1채널 그레이스케일)&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;데이터 형식&lt;/strong&gt;: int8&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;h3 class=&quot;text-lg font-bold text-text-200 mt-1 -mb-1.5&quot;&gt;가중치&lt;/h3&gt;&lt;ul class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot; depth=&quot;0&quot;&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;훈련된 가중치&lt;/strong&gt;: 일반적으로 -1~1 사이의 부동소수점 값&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;&lt;strong&gt;양자화&lt;/strong&gt;: 가중치에 스케일 팩터(예: 127)를 곱해 -127~127 범위의 정수로 변환&lt;br&gt;&lt;ul class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot; depth=&quot;1&quot;&gt;&lt;br&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;예: 0.5 → 64, -0.75 → -95&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;h3 class=&quot;text-lg font-bold text-text-200 mt-1 -mb-1.5&quot;&gt;&lt;br&gt;&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7830" y="3645.75" width="480" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-34" value="&lt;h3 class=&quot;text-lg font-bold text-text-200 mt-1 -mb-1.5&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;바이어스&lt;/h3&gt;&lt;ul depth=&quot;0&quot; class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;li class=&quot;whitespace-normal break-words&quot; style=&quot;forced-color-adjust: none;&quot;&gt;같은 방식으로 적절한 스케일 팩터를 사용해 정수로 변환&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8380" y="3647.25" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-35" value="&lt;h3 class=&quot;text-lg font-bold text-text-200 mt-1 -mb-1.5&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;CNN 연산&lt;/h3&gt;&lt;ul depth=&quot;0&quot; class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;li class=&quot;whitespace-normal break-words&quot; style=&quot;forced-color-adjust: none;&quot;&gt;4-8개의 병렬 MAC 유닛으로 구현&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8380" y="3795.75" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-36" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="9462" y="3835" width="36" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MyXXM6wKa5X1oABOJZfT-37" value="SoftMax" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="9450" y="4029.5" width="82" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
