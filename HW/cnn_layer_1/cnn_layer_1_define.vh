@@ -12,6 +12,8 @@
 `define   STRIDE_SIZE            1    // Stride size
 `define   IMAGE_WIDTH            28   // Input image width
 `define   IMAGE_HEIGHT           28   // Input image height
+`define   PADDED_WIDTH           30   // `IMAGE_WIDTH + 2*`PADDING_SIZE;
+`define   PADDED_HEIGHT          30   // `IMAGE_HEIGHT + 2*`PADDING_SIZE;
 /*******************************************************************************
 * Bitwidth Parameter Definitions
 * Purpose: Configure bitwidths for weights, feature maps, biases, and accumulators
@@ -20,6 +22,7 @@
 
 `define   WEIGHT_BITWIDTH         8    // Weight bitwidth
 `define   FEATURE_BITWIDTH        8    // Input feature map bitwidth
-`define   KERNEL_ACCUM_BITWIDTH   20   // Kernel operation accumulator bitwidth
+`define   KERNEL_MUL_BITWIDTH     16   // WEIGHT * FEATURE
+`define   KERNEL_ACCUM_BITWIDTH   19   // Kernel operation accumulator bitwidth
 `define   CHANNEL_ACCUM_BITWIDTH  24   // Channel accumulation accumulator bitwidth
 `define   BIAS_BITWIDTH           16   // Bias bitwidth
